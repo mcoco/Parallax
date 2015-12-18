@@ -1,0 +1,89 @@
+*, html{
+	margin: 0px;
+	padding: 0px;
+}
+#home{
+		background: url(bg_0.jpg) 50% 0 no-repeat fixed;
+}
+#section2{
+	background: url(bg_4.jpg) 50% 0 no-repeat fixed;
+}
+#section3{
+	background: url(bg_2.jpg) 50% 0 no-repeat fixed;
+}
+#section4{
+		background: url(57.jpg) 50% 0 no-repeat fixed;
+
+}
+#home, #section2, #section3, #section4{
+	margin: 0 auto;
+	max-width: 1920px;
+	min-height: 700px;
+	position: relative;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+/*para que nuestro background ocupe el 100% de la pantalla*/
+	background-size: cover;
+
+}
+
+#section2, #section3{
+		box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+article{
+	padding: 100px;
+}
+h2{
+	font-family: helvetica;
+	text-align: center;
+}
+/*.geek{
+	background: url(geek1.jpg) no-repeat;
+	display: block;
+	height: 368px;
+	/*para centrarlo en la pantalla*/
+	/*margin: 0px auto;
+	width: 350px;
+
+}*/
+#parrafo{
+	font-size: 40px;
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+
+}
+a{
+	text-decoration: none;
+	color: #3A161E;
+		font-family: sans-serif;
+
+}
+a:hover{
+	text-decoration: none;
+	color: #876D69;
+		font-family: sans-serif;
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	margin-top: 50px;
+}
+.parrafocuervo{
+	text-align: left;
+	text-decoration: none;
+	color: #3B2F2E;
+}
+#nube{
+	font-size: 50px;
+	text-align: center;
+	color: #5A5F62;
+	text-shadow: 1px 1px 1px #000;
+	margin-top: 80px;
+}
+}
